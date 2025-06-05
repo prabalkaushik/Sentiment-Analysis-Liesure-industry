@@ -4,12 +4,12 @@ This repository contains hotel review datasets from TripAdvisor alongside notebo
 
 ## Datasets
 
-The root folder includes CSV and XLSX files grouped by hotel star ratings (2–5 stars) and by review period:
+All review CSV files are stored in the `data/` directory and are grouped by hotel star ratings (2–5 stars) as well as the review period:
 
 - **Pre-COVID reviews**: `2star precovid*`, `3star precovid*`, `4star precovid*`, `5star precovid*`
 - **Post-COVID reviews**: `2star postcovid*`, `3star postcovid*`, `4star postcovid*`, `5star postcovid*`
 
-Each group contains both `.csv` and `.xlsx` versions of the scraped TripAdvisor reviews.
+Only the `.csv` versions of the scraped TripAdvisor reviews are kept in the repository.
 
 ## Notebooks
 
@@ -32,4 +32,4 @@ Each group contains both `.csv` and `.xlsx` versions of the scraped TripAdvisor 
    jupyter notebook
    ```
 
-The notebooks assume the dataset files remain in the repository root.
+The notebooks assume the dataset files are located in the `data/` folder.
