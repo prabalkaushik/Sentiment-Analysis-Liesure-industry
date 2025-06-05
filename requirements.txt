@@ -1,0 +1,10 @@
+pandas
+requests
+requests_html
+beautifulsoup4
+nltk
+gensim
+spacy
+pyLDAvis
+matplotlib
+numpy
