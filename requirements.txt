@@ -3,8 +3,13 @@ requests
 requests_html
 beautifulsoup4
 nltk
+
+spacy
+gensim
+=======
 gensim
 spacy
+
 pyLDAvis
 matplotlib
 numpy
