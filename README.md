@@ -6,7 +6,6 @@ This repository contains notebooks for analyzing hotel reviews and related datas
 ## Setup
 
 Install the required packages with pip:
-
 ```bash
 pip install -r requirements.txt
 ```
@@ -29,7 +28,7 @@ Only the `.csv` versions of the scraped TripAdvisor reviews are kept in the repo
 ## Notebooks
 
 - **`scrape_tripadvisor_reviews.ipynb`** (`TRIP ADVISOR FINALyyy.ipynb`)
-  - Demonstrates how the review data was collected from TripAdvisor using `requests_html` and `BeautifulSoup`.
+  - this Demonstrates how the review data was collected from TripAdvisor using `requests_html` and `BeautifulSoup`.
 - **Topic modeling notebook** (`Topic Modelling_Bitcoin(1)-Copy1.ipynb`)
   - Performs preprocessing and Latent Dirichlet Allocation (LDA) topic modeling on the review text to discover common themes.
 
